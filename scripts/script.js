@@ -58,8 +58,6 @@ $(document).ready(function () {
     });
   });
 
- 
-
   class Typing {
     constructor(obj) {
       this.el = document.querySelector(obj.el);
@@ -208,7 +206,6 @@ $(document).ready(function () {
     el: ".tailwind__percent",
     percent: ".tailwind__line",
   });
-  
 });
 
 var typed = new Typed(".types", {
@@ -220,7 +217,7 @@ var typed = new Typed(".types", {
 
 let works = [
   {
-    img: "./images/works/atlas.png",
+    img: "./images/works/atlas.webp",
     title: "Travel website",
     text: "#tailwind, #react, #i18n, #api",
     link: "https://atlasluxe.uz/",
@@ -230,6 +227,12 @@ let works = [
     title: "Personal website",
     text: "#css, #tailwind, #vue, #api",
     link: "https://atlasluxe.uz/",
+  },
+  {
+    img: "./images/works/shopnext.webp",
+    title: "NextJs Online Market",
+    text: "#tailwind, #Next, #TS",
+    link: "https://scintillating-cuchufli-edf1c6.netlify.app/",
   },
   {
     img: "./images/works/marketvue.webp",
