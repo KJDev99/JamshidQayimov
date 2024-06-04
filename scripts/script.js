@@ -220,10 +220,16 @@ var typed = new Typed(".types", {
 
 let works = [
   {
+    img: "./images/works/atlas.png",
+    title: "Travel website",
+    text: "#tailwind, #react, #i18n, #api",
+    link: "https://atlasluxe.uz/",
+  },
+  {
     img: "./images/works/kozimxon.webp",
     title: "Personal website",
-    text: "#css, #tailwind #vue, #api",
-    link: "https://kozimxon.uz/",
+    text: "#css, #tailwind, #vue, #api",
+    link: "https://atlasluxe.uz/",
   },
   {
     img: "./images/works/marketvue.webp",
@@ -408,7 +414,7 @@ let workHTML = document.querySelector(".work");
 works.forEach((item) => {
   workHTML.innerHTML += `
     <div class="work__items" data-tilt>
-      <img class="work__img" src="${item.img}"/>
+      <img class="work__img" src="${item.img}" alt="works imgs"/>
       <div class="work__info">
         <div class="work__title">${item.title}</div>
         <p class="work__text">${item.text}</p>
