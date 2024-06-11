@@ -235,12 +235,24 @@ let works = [
     link: "https://scintillating-cuchufli-edf1c6.netlify.app/",
   },
   {
+    img: "./images/works/hospital.webp",
+    title: "Hospital ",
+    text: "#html, #css, #JS, #auth",
+    link: "https://wonderful-gelato-985973.netlify.app/",
+  },
+  {
     img: "./images/works/marketvue.webp",
     title: "Vue Online Market",
     text: "#css, #tailwind #vue, #api",
     link: "https://cheery-centaur-86468c.netlify.app/",
   },
 
+  {
+    img: "./images/works/math-single-page.webp",
+    title: "Math Single Page",
+    text: "#html, #css, #JS",
+    link: "https://rococo-treacle-9e4acc.netlify.app/",
+  },
   {
     img: "./images/works/identy.webp",
     title: "Face ID",
