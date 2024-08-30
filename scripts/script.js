@@ -217,10 +217,22 @@ var typed = new Typed(".types", {
 
 let works = [
   {
+    img: "./images/works/topuy.webp",
+    title: "TopUy website",
+    text: "#tailwind, #react, #i18n, #redux",
+    link: "https://topuy.uz/",
+  },
+  {
     img: "./images/works/atlas.webp",
     title: "Travel website",
     text: "#tailwind, #react, #i18n, #api",
     link: "https://atlasluxe.uz/",
+  },
+  {
+    img: "./images/works/ozod.webp",
+    title: "Blog website",
+    text: "#html, #css, #js, #api",
+    link: "https://ozodbobo.uz/",
   },
   {
     img: "./images/works/kozimxon.webp",
