@@ -219,8 +219,14 @@ let works = [
   {
     img: "./images/works/topuy.webp",
     title: "TopUy website",
-    text: "#tailwind, #react, #i18n, #redux",
+    text: "#tailwind, #next, #i18n, #redux",
     link: "https://topuy.uz/",
+  },
+  {
+    img: "./images/works/avto.webp",
+    title: "AvtoKorea website",
+    text: "#tailwind, #react, #next, #api",
+    link: "https://boom-avto.co/",
   },
   {
     img: "./images/works/atlas.webp",
