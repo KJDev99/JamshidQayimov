@@ -824,3 +824,39 @@ main {
     opacity: 0;
   }
 }
+
+.work__carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.work__carousel img:first-child {
+  display: block;
+}
+
+.work__carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: -40px;
+  z-index: 2;
+}
+
+.work__carousel-prev,
+.work__carousel-next {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+  outline: none;
+  border: none;
+}
+
+.work__carousel-prev:hover,
+.work__carousel-next:hover {
+  background: #555;
+}
